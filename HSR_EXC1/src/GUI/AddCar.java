@@ -32,7 +32,7 @@ public class AddCar extends JInternalFrame {
 	/**
 	 * 
 	 */
-	//hi adi
+	//hi nemer
 	private static final long serialVersionUID = 1L;
 	private JPanel contentPane;
 	private JTextField textField;
