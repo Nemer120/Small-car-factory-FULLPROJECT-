@@ -1,5 +1,6 @@
 package model;
 
+import java.time.LocalDateTime;
 import java.util.Date;
 import java.util.HashSet;
 
@@ -11,12 +12,12 @@ public class Deal {
 	private static int counter=0;
 	private String dealID;
 	private Customer customer;
-	private Date dealDate;
+	private LocalDateTime dealDate;
 	private HashSet<VehicleTransportation> allVehicleTransportation; 
 	private double shippingCost;
 	private double totalDealPrice;
 
-	public Deal(Customer customer, Date dealDate,
+	public Deal(Customer customer, LocalDateTime dealDate,
 			HashSet<VehicleTransportation> allVehicleTransportation, double shippingCost) {
 		super();
 		this.dealID = ++counter +"";
@@ -68,10 +69,10 @@ public class Deal {
 		this.customer = customer;
 	}
 
-	public Date getDealDate() {
+	public LocalDateTime getDealDate() {
 		return dealDate;
 	}
-	public void setDealDate(Date dealDate) {
+	public void setDealDate(LocalDateTime dealDate) {
 		this.dealDate = dealDate;
 	}
 	
