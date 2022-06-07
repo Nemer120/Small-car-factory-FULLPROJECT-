@@ -114,7 +114,7 @@ public class AddDeal extends JInternalFrame {
 		table = new JTable();
 		table.setBounds(410, 185, -117, -85);
 		contentPane.add(table);
-		
+		//s
 		JLabel lblNewLabel_5 = new JLabel("your car has been added to the deal!");
 		lblNewLabel_5.setVisible(false);
 		lblNewLabel_5.setBounds(171, 108, 273, 65);
