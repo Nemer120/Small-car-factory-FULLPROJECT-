@@ -116,7 +116,7 @@ public class AddDeal extends JInternalFrame {
 		contentPane.add(table);
 		
 		JLabel lblNewLabel_5 = new JLabel("your car has been added to the deal!");
-		lblNewLabel_5.setEnabled(false);
+		lblNewLabel_5.setVisible(false);
 		lblNewLabel_5.setBounds(171, 108, 273, 65);
 		contentPane.add(lblNewLabel_5);
 		HashSet<VehicleTransportation> c= new HashSet<>();
